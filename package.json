@@ -4,7 +4,8 @@
   "description": "Desktop Lofi streaming app using Electron-Angular Stack",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "build": "electron-packager . --asar --overwrite"
   },
   "repository": {
     "type": "git",
