@@ -13,6 +13,12 @@ Voila! Your application should start running!
 
 *If the application does not start, an error has occured*
 
+## To Package an Executable
+
+I created a script that runs the included packager, Simply type ```npm run build```<br>
+The created folder within the repository should now hold a Loficus.exe File
+
+
 ## Like the App?
 
 Feel free to keep using it whenever you like. Make sure you check out the Lofi creator channels too! 
