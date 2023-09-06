@@ -15,7 +15,7 @@ Voila! Your application should start running!
 
 ## To Package an Executable
 
-I created a script that runs the included packager, Simply type ```npm run build```<br>
+I created a script that runs the included packager, simply type ```npm run build```<br><br>
 The created folder within the repository should now hold a Loficus.exe File
 
 
