@@ -2,6 +2,7 @@ const{app, BrowserWindow} = require('electron');
 
 function createWindow(){
     const win = new BrowserWindow({
+        icon: 'src/assets/img/5533582.png',
         width: 226,
         height: 249,
         autoHideMenuBar: true,
