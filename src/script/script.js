@@ -97,3 +97,20 @@ vid.onplay = (event) => {
 function testFunc(){
 	console.log('test')
 }
+function increaseVolume() {
+    // Increase the volume of the embedded video player
+    callPlayer('Stream', 'setVolume', getVolume() + 10);
+}
+
+function decreaseVolume() {
+    // Decrease the volume of the embedded video player
+    callPlayer('Stream', 'setVolume', getVolume() - 10);
+}
+
+function getVolume() {
+    // Get the current volume of the embedded video player
+    var iframe = document.getElementById('Stream'); // Replace 'Stream' with your iframe ID
+    if (iframe && iframe.contentWindow) {
+        iframe.contentWindow.postMessage('{"event":"getVolume"}', '*');
+    }
+}

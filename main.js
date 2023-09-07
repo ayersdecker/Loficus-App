@@ -2,14 +2,8 @@ const{app, BrowserWindow} = require('electron');
 
 function createWindow(){
     const win = new BrowserWindow({
-        width: 400,
-        height: 200,
-        minHeight: 200,
-        minWidth: 400,
-        transparent: true,
-        frame: true,
-        backgroundColor: '#40000000',
-        resizable: true,
+        width: 226,
+        height: 249,
         autoHideMenuBar: true,
         webPreferences:{
             nodeIntegration: true
@@ -26,9 +20,4 @@ app.on('window-all-closed', ()=>{
     }
 })
 
-app.on('activate', ()=>{
-    if(BrowserWindow.getAllWindows().length === 0){
-        createWindow();
-    }
-})
 

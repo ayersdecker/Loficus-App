@@ -4,11 +4,30 @@
     padding: 0;
     background: transparent;
 }
-
 body{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: transparent;
+    background-color: #caa9a9;
+}
+button{
+    padding: 10px;
+    border-radius: 5px;
+    width: 75px;
+    background-color: #333;
+    color: #8dee8dcb;
+}
+
+.buttons{
+    margin: 5px;
+    height: auto;
+    display: grid;
+    place-items: center;
+}
+.plant{
+    height: 100px;
+}
+.play{
+   margin: 5px;
+}
+.pause{
+    width: 100px;
+    margin: 5px;
 }
