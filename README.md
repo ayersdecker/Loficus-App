@@ -23,7 +23,7 @@ The created folder within the repository should now hold a Loficus.exe File
 
 Feel free to keep using it whenever you like. Make sure you check out the Lofi creator channels too! 
 
-## Channel Links
+## Stream Source
 
-[Lofi Girl](https://www.youtube.com/@LofiGirl) 
+This application streams from Lofi Girl's YouTube Channel - [Lofi Girl](https://www.youtube.com/@LofiGirl) 
 
