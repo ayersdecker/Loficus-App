@@ -1,5 +1,5 @@
 {
-  "name": "loficus-app",
+  "name": "Loficus",
   "version": "1.0.0",
   "description": "Desktop Lofi streaming app using Electron-Angular Stack",
   "main": "main.js",
