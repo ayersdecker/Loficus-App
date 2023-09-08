@@ -7,7 +7,9 @@ Built using Electron-Angular
 
 2. Open a Terminal window and make sure that you are in the right folder
 
-3. Type ```npm start```, and click enter
+3. Make sure to have npm installed
+
+4. 3. Type ```npm start```, and click enter
 
 Voila! Your application should start running!
 
