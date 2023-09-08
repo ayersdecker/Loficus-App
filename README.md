@@ -9,7 +9,9 @@ Built using Electron-Angular
 
 3. Make sure to have npm installed
 
-4. 3. Type ```npm start```, and click enter
+4.  Type ```npm install electron-packager```, and click enter
+
+5. Type ```npm start```, and click enter
 
 Voila! Your application should start running!
 
