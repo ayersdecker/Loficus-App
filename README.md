@@ -1,5 +1,5 @@
 # Loficus<br>
-Built using Electron-Angular
+Built using Electron
 
 ## How to Run Application
 
